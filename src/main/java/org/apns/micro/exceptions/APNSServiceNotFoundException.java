@@ -1,4 +1,4 @@
-package org.apns.jmx.exceptions;
+package org.apns.micro.exceptions;
 
 /**
  * @author Robert Andruschow

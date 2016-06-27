@@ -1,0 +1,10 @@
+apns:
+  micro:
+    certs:
+    -
+      filePath: "/path/to/certFile1.p12"
+      password: "pwForCertFile1.p12"
+    -
+      filePath: "/path/to/certFile2.p12"
+      password: "pwForCertFile2.p12"
+    -...

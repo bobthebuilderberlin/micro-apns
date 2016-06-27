@@ -1,6 +1,6 @@
-package org.apns.jmx.core;
+package org.apns.micro.core;
 
-import org.apns.jmx.exceptions.APNSServiceNotFoundException;
+import org.apns.micro.exceptions.APNSServiceNotFoundException;
 import org.springframework.stereotype.Service;
 
 import javax.inject.Inject;

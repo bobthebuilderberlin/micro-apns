@@ -1,7 +1,7 @@
-package org.apns.jmx;
+package org.apns.micro;
 
-import org.apns.jmx.core.ApnsManagement;
-import org.apns.jmx.core.ApnsManagementService;
+import org.apns.micro.core.ApnsManagement;
+import org.apns.micro.core.ApnsManagementService;
 import org.springframework.stereotype.*;
 import org.springframework.web.bind.annotation.*;
 

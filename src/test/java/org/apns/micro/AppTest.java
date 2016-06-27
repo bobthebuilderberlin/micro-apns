@@ -1,4 +1,4 @@
-package org.apns.jmx;
+package org.apns.micro;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

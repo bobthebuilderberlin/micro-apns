@@ -1,4 +1,4 @@
-package org.apns.jmx.core;
+package org.apns.micro.core;
 
 import javax.management.MalformedObjectNameException;
 import javax.management.ObjectName;

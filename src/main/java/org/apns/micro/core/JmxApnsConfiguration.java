@@ -1,8 +1,8 @@
-package org.apns.jmx.core;
+package org.apns.micro.core;
 
 import com.notnoop.apns.APNS;
 import com.notnoop.apns.ApnsService;
-import org.apns.jmx.CertsConfiguration;
+import org.apns.micro.CertsConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

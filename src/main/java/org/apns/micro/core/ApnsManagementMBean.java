@@ -1,6 +1,4 @@
-package org.apns.jmx.core;
-
-import java.io.File;
+package org.apns.micro.core;
 
 /**
  * @author Robert Andruschow

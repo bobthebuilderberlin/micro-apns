@@ -1,4 +1,4 @@
-package org.apns.jmx.core;
+package org.apns.micro.core;
 
 import java.io.File;
 import java.io.FileInputStream;

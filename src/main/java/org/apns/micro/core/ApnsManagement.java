@@ -1,4 +1,4 @@
-package org.apns.jmx.core;
+package org.apns.micro.core;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
