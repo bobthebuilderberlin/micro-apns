@@ -10,6 +10,8 @@ import javax.inject.Inject;
 import java.lang.management.ManagementFactory;
 
 /**
+ * Configuration for exposing APNS information via JMX.
+ *
  * @author Robert Andruschow
  */
 @Configuration

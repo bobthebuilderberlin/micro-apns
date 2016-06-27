@@ -1,6 +1,8 @@
 package org.apns.micro.core;
 
 /**
+ * Interface for exposing ApnsManagement via JMX.
+ *
  * @author Robert Andruschow
  */
 interface ApnsManagementMBean {

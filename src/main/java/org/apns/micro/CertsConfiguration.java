@@ -6,6 +6,9 @@ import org.springframework.context.annotation.Configuration;
 import java.util.List;
 
 /**
+ * Class representing configuration for cert files, found in application.yml
+ * See application-template.yml for an example.
+ *
  * @author Robert Andruschow
  */
 @ConfigurationProperties(prefix = "apns.jmx")
