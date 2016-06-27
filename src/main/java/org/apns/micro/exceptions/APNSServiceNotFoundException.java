@@ -1,6 +1,8 @@
 package org.apns.micro.exceptions;
 
 /**
+ * Exception that is thrown when no APNS service with the serviceQualifyingName is available.
+ *
  * @author Robert Andruschow
  */
 public class APNSServiceNotFoundException extends RuntimeException {

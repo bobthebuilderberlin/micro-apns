@@ -11,6 +11,8 @@ import java.security.NoSuchAlgorithmException;
 import java.security.cert.CertificateException;
 
 /**
+ * Implementation of the {@link ApnsManagementMBean}. Is exposed via JSON-endpoint and JMX.
+ *
  * @author Robert Andruschow
  */
 public class ApnsManagement implements ApnsManagementMBean {

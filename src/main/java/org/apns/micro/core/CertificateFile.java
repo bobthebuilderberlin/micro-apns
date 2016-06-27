@@ -10,6 +10,8 @@ import java.security.cert.CertificateException;
 import java.security.cert.X509Certificate;
 
 /**
+ * Class holding information about a certificate file.
+ *
  * @author Robert Andruschow
  */
 class CertificateFile {
@@ -24,6 +26,13 @@ class CertificateFile {
         this.certificate = loadX509Certificate(password);
     }
 
+    /**
+     * Logic for loading an APNS certificate(which is an X509Certificate)
+     * @throws KeyStoreException In case a problem when loading the key store for the certificate file.
+     * @throws IOException In case the file does not exist or is inaccessible.
+     * @throws CertificateException If the password of the cert is wrong.
+     * @throws NoSuchAlgorithmException If no algorithm for decryption matches the requirements.
+     */
     private X509Certificate loadX509Certificate(String password) throws KeyStoreException, IOException, CertificateException, NoSuchAlgorithmException {
         KeyStore keyStore = getKeyStore(password);
         return (X509Certificate) keyStore.getCertificate(
