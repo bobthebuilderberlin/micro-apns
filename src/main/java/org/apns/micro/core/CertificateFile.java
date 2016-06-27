@@ -16,7 +16,7 @@ class CertificateFile {
 
     private static final String KEYSTORE_TYPE = "PKCS12";
 
-    private File file;
+    private final File file;
     private X509Certificate certificate;
 
     CertificateFile(File file, String password) throws CertificateException, NoSuchAlgorithmException, KeyStoreException, IOException {

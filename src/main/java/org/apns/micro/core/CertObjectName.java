@@ -7,7 +7,7 @@ import java.io.File;
 /**
  * @author Robert Andruschow
  */
-public class CertObjectName extends ObjectName {
+class CertObjectName extends ObjectName {
 
     public CertObjectName(File file) throws MalformedObjectNameException {
         super("org.jmx.apns.mbean:type=ApnsCertificateManagement-" + file.getName());

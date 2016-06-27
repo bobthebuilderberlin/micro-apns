@@ -3,7 +3,7 @@ package org.apns.micro.core;
 /**
  * @author Robert Andruschow
  */
-public interface ApnsManagementMBean {
+interface ApnsManagementMBean {
 
     String getName();
 

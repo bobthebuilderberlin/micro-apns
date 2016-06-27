@@ -46,7 +46,7 @@ public class JmxApnsConfiguration {
         return managementBean;
     }
 
-    public ApnsService buildApnsService(CertsConfiguration.CertConfiguration cert) {
+    private ApnsService buildApnsService(CertsConfiguration.CertConfiguration cert) {
         return APNS.newService()
                 .withCert(cert.getFilePath(), cert.getPassword())
                 .withSandboxDestination()
