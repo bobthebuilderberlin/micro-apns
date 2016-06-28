@@ -5,7 +5,7 @@ Includes:
 - An HTTP and JMX endpoint for pushing notifications
  
 Additional info:
-- based on java, spring-boot and notnoop's APNS lib.
+- based on java, spring-boot and notnoop's APNS lib(https://github.com/notnoop/java-apns).
 
 How to:
 - use application-template.yml as example for configuring your certificates
